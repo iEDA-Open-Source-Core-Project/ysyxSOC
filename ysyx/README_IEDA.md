@@ -40,7 +40,7 @@ Usage:
 ```
 + 不带波形运行 rtt
 ```bash
-/home/leesum/soc-ieda/leesum/ysyxSoC/ysyx/sim/build/emu  -d -t 1000 -m cmd -i ~/soc-ieda/leesum/transplantation-doc/prebuild_prog/bin/mem/rtthread-i-mem-riscv32-mycpu.bin
+/home/leesum/soc-ieda/leesum/ysyxSoC/ysyx/sim/build/emu   -t 1000 -m cmd -i ~/soc-ieda/leesum/transplantation-doc/prebuild_prog/bin/mem/rtthread-i-mem-riscv32-mycpu.bin
 ```
 
 
