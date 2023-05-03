@@ -210,6 +210,7 @@ begin
         2'b10 : if (count<fifo_depth)  // overrun condition
             begin
                 $write("%c", data_in);
+                $fflush();
                 top   <=  top_plus_1;
                 count <=  count + 1'b1;
             end
@@ -220,6 +221,7 @@ begin
             end
         2'b11 : begin
                 $write("%c", data_in);
+                $fflush();
                 bottom <=  bottom + 1'b1;
                 top    <=  top_plus_1;
                 end
